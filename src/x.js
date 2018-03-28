@@ -4,7 +4,8 @@ export default function(x) {
   var strength = constant(0.1),
       nodes,
       strengths,
-      xz;
+      xz,
+      newvar
 
   if (typeof x !== "function") x = constant(x == null ? 0 : +x);
 
